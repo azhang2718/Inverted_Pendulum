@@ -28,7 +28,7 @@ Our implementation reads the pendulum angle from an AS5600 magnetic encoder over
 | Bearings | 625RS | Pulley + idler support |
 | Endstops | Limit switches (×2) | Homing on startup |
 | Power | 12 V / 5 A supply | Motor + logic rail |
-| Regulator | LM1117 3.3 V LDO | Logic supply *(see Known Issues)* |
+| Regulator | LM1117 3.3 V LDO | Logic supply |
 | Pendulum | 6 mm × 300 mm steel rod | The thing being balanced |
 
 The full PCB design is in `pcb/` as a KiCad project. Open `*.kicad_pro` in the KiCad project manager to view the schematic and layout
